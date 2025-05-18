@@ -1,0 +1,8 @@
+.dataTables_wrapper .top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dataTables_wrapper .top .dataTables_filter {
+    margin-left: auto;
+}

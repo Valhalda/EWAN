@@ -1,4 +1,8 @@
-<?php include '../config/koneksi.php'; include '../template/navbar.php'; ?>
+<?php 
+include '../config/koneksi.php';
+include '../template/header.php';
+include '../template/navbar.php'; 
+?>
 
 <div class="container mt-4">
     <h3>Tambah Pengguna</h3>
@@ -27,6 +31,7 @@
             </select>
         </div>
         <button class="btn btn-primary" name="simpan">Simpan</button>
+        <a href="index.php" class="btn btn-secondary">Kembali</a>
     </form>
 </div>
 

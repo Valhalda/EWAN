@@ -24,6 +24,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             <input type="text" name="lantai" class="form-control" required>
         </div>
         <button class="btn btn-success" type="submit">Simpan</button>
-        <a href="ruangan.php" class="btn btn-secondary">Kembali</a>
+        <a href="index.php" class="btn btn-secondary">Kembali</a>
     </form>
 </div>

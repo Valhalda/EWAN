@@ -31,5 +31,6 @@ if (isset($_POST['simpan'])) {
             <textarea name="alamat" class="form-control"></textarea>
         </div>
         <button class="btn btn-primary" name="simpan">Simpan</button>
+        <a class="btn btn-secondary" href="index.php">Kembali</a>
     </form>
 </div>

@@ -14,7 +14,7 @@ include '../template/header.php';
                 <a href="../home/dashboard.php" class="btn btn-primary mb-3">Kembali</a>
                 <a href="tambah.php" class="btn btn-success mb-3">+ Tambah Komputer</a>
             </div>
-            <table class="table table-bordered table-hover">
+            <table id="TableIndex" class="table table-bordered table-hover">
                 <thead class="table-dark">
                     <tr>
                         <th>No</th>

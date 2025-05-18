@@ -11,10 +11,10 @@ include '../template/header.php';
         <div class="row mt-4">
             <h3>Data ruangan</h3>
             <div class="col-md-3 mt-3">
-                <a href="../dashboard.php" class="btn btn-primary mb-3">Kembali</a>
+                <a href="../home/dashboard.php" class="btn btn-primary mb-3">Kembali</a>
                 <a href="tambah.php" class="btn btn-success mb-3">+ Tambah ruangan</a>
             </div>
-            <table class="table table-bordered table-striped">
+            <table id="TableIndex" class="table table-bordered table-striped">
                 <thead class="table-dark">
                     <tr>
                         <th>No</th>

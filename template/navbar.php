@@ -24,6 +24,9 @@ $baseURL = '/kompjav/';
                     <a class="nav-link" href="<?= $baseURL ?>pemeliharaan/index.php">Pemeliharaan</a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link" href="<?= $baseURL ?>perbaikan/index.php">Perbaikan</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link" href="<?= $baseURL ?>teknisi/index.php">Teknisi</a>
                 </li>
                 <li class="nav-item">
